@@ -1,0 +1,21 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "my custom url shortener",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec \"cls && nodemon index.js\""
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.1",
+    "nanoid": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
